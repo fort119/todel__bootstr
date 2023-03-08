@@ -23,7 +23,6 @@ body {
 .main__center {
   background-color: black;
   padding: 0 12px;
-  align-content: center;
   min-height: calc(100vh - 116px);
 }
 
@@ -36,8 +35,10 @@ body {
 }
 
 .main__right {
+  display: flex;
+  justify-content: center;
   background-color: yellow;
-  padding: 30px 12px;
-  align-content: center;
+  padding: 0 12px;
+  align-items: center;
   min-height: calc(100vh - 116px);
 }
