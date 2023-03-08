@@ -1,0 +1,43 @@
+@use "presets/skins" as *;
+@use "presets/variables" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.header,
+.footer {
+  padding: 0 12px;
+  min-height: 50px;
+}
+
+.col {
+  padding: 0;
+
+}
+
+.main__center {
+  background-color: black;
+  padding: 0 12px;
+  align-content: center;
+  min-height: calc(100vh - 116px);
+}
+
+.main__left {
+  display: flex;
+  background-color: burlywood;
+  padding: 30px 12px;
+  align-items: center;
+  min-height: calc(100vh - 116px);
+}
+
+.main__right {
+  background-color: yellow;
+  padding: 30px 12px;
+  align-content: center;
+  min-height: calc(100vh - 116px);
+}
