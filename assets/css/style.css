@@ -9,6 +9,7 @@ body {
 
 .header {
   min-height: 50px;
+  margin-bottom: 15px;
   padding: 0 12px;
 }
 
