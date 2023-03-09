@@ -7,10 +7,13 @@ body {
   background-color: aliceblue;
 }
 
-.header,
-.footer {
+.header {
   min-height: 50px;
   padding: 0 12px;
+}
+
+.navbar-brand {
+  text-align: center;
 }
 
 .col {
@@ -18,10 +21,15 @@ body {
 }
 
 .main__center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -ms-flex-align: center;
+
   min-height: calc(100vh - 116px);
   padding: 0 12px;
-
-  background-color: black;
 }
 
 .main__left {
@@ -33,9 +41,7 @@ body {
   -ms-flex-align: center;
 
   min-height: calc(100vh - 116px);
-  padding: 30px 12px;
-
-  background-color: burlywood;
+  padding: 0 12px;
 }
 
 .main__right {
@@ -51,6 +57,25 @@ body {
 
   min-height: calc(100vh - 116px);
   padding: 0 12px;
+}
 
-  background-color: yellow;
+.footer {
+  padding: 60px 12px 20px;
+}
+
+.footer__copy {
+  padding: 10px 0;
+
+  background-color: #0d6efd;
+}
+
+.copy-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+
+  color: #ffffff;
 }

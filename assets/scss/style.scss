@@ -9,36 +9,52 @@ body {
   background-color: aliceblue;
 }
 
-.header,
-.footer {
+.header {
   padding: 0 12px;
   min-height: 50px;
 }
 
+.navbar-brand {
+  text-align: center;
+}
+
 .col {
   padding: 0;
-
 }
 
 .main__center {
-  background-color: black;
+  display: flex;
+  align-items: center;
   padding: 0 12px;
   min-height: calc(100vh - 116px);
 }
 
 .main__left {
   display: flex;
-  background-color: burlywood;
-  padding: 30px 12px;
   align-items: center;
+  padding: 0px 12px;
   min-height: calc(100vh - 116px);
 }
 
 .main__right {
   display: flex;
   justify-content: center;
-  background-color: yellow;
   padding: 0 12px;
   align-items: center;
   min-height: calc(100vh - 116px);
+}
+
+.footer {
+  padding: 60px 12px 20px;
+}
+
+.footer__copy {
+  padding: 10px 0;
+  background-color: $color-primary;
+}
+
+.copy-text {
+  display: flex;
+  justify-content: space-between;
+  color: $color-light;
 }
