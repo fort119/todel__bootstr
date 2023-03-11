@@ -92,19 +92,33 @@ a {
 }
 
 .footer {
-  padding: 60px 12px 20px;
 
-  &__copy {
-    padding: 10px 0;
+  &__inner {
+    display: flex;
+    align-items: center;
     background-color: $color-primary;
+    min-height: 200px;
+  }
+
+  &__brand-name {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  &__contacts {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  &__contacts-link {
+    color: #ffffff;
   }
 }
 
-
-
-
-.copy-text {
+.contact-text {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   color: $color-light;
 }
