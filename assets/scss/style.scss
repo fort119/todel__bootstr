@@ -76,6 +76,12 @@ a {
   }
 }
 
+.gradient-1 {
+  height: 50px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(160, 138, 138, 1) 76%);
+}
+
 .section-two {
   background-color: #a08a8a;
 
@@ -89,6 +95,12 @@ a {
 
 .text-advert {
   max-width: 300px;
+}
+
+.gradient-2 {
+  height: 50px;
+  background: rgb(160, 138, 138);
+  background: linear-gradient(180deg, rgba(160, 138, 138, 1) 0%, rgba(13, 110, 253, 1) 76%);
 }
 
 .footer {
